@@ -1,7 +1,5 @@
 from fastapi import FastAPI, Body, Query, Path
 from fastapi.responses import HTMLResponse, JSONResponse
-from pydantic import BaseModel, Field, validator, model_validator
-from typing import Any, Optional, List
 
 
 metadata = [
